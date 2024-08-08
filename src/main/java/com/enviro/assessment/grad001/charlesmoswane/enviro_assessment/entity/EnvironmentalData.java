@@ -12,8 +12,7 @@ public class EnvironmentalData {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
     private String dataPoint;
-    private String value;
+    private String dataValue;
 
 }

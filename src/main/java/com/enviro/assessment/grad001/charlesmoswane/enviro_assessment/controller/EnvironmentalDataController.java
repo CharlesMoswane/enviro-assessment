@@ -27,7 +27,7 @@ public class EnvironmentalDataController {
                 String[] data = line.split(",");
                 EnvironmentalData environmentalData = new EnvironmentalData();
                 environmentalData.setDataPoint(data[0]);
-                environmentalData.setValue(data[1]);
+                environmentalData.setDataValue(data[1]);
                 repository.save(environmentalData);
             }
             return ResponseEntity.ok("File uploaded and data saved successfully");
