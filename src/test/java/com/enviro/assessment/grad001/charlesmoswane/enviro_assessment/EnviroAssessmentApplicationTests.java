@@ -24,4 +24,10 @@ class EnviroAssessmentApplicationTests {
 		mockMvc.perform(MockMvcRequestBuilders.get("/api/environmental/data"))
 				.andExpect(status().isOk());
 	}
+
+	@Test
+	@DisplayName("Test file upload")
+	public void testFileUpLoad(){
+
+	}
 }
